@@ -1,0 +1,25 @@
+{
+  "name": "postman-newman-docker",
+  "version": "1.0.0",
+  "description": "newman postman poc ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "execute": "node src/index.js"
+  },
+  "keywords": [
+    "newman",
+    "postman",
+    "newman-postman-poc"
+  ],
+  "author": "yogendra porwal",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5",
+    "newman": "^5.2.2",
+    "newman-reporter-html": "^1.0.5",
+    "newman-reporter-htmlextra": "^1.21.0"
+  }
+}

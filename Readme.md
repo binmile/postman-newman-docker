@@ -1,0 +1,2 @@
+run `docker build -t postman_docker_test -f Dockerfile .` to build docker image 
+run `docker run --rm -v "<src-directory-path>:/etc/newman/src" --name postman_docker_test  -e ENV_FILE=${enf-file-name} -e "COLLECTION=${multiple-collection-file-separated-by-comma}" postman_docker_test` to run image 
